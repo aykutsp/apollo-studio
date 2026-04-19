@@ -1,0 +1,8 @@
+node_modules
+dist
+.npm-cache
+reference
+.DS_Store
+Thumbs.db
+Dont Upload
+*.tsbuildinfo

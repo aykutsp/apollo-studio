@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "catalogs": [
+    {
+      "id": "apollo-core",
+      "label": "Apollo Core",
+      "path": "/catalogs/apollo-core.json"
+    }
+  ]
+}

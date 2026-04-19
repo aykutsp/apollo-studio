@@ -1,0 +1,40 @@
+{
+  "id": "sample-house",
+  "name": "Sample House",
+  "unitSystem": "m",
+  "entities": [
+    {
+      "id": "wall-1",
+      "type": "wall",
+      "name": "North Wall",
+      "start": { "x": 2, "y": 2 },
+      "end": { "x": 10, "y": 2 },
+      "thickness": 0.25,
+      "height": 3,
+      "material": "White Plaster"
+    },
+    {
+      "id": "wall-2",
+      "type": "wall",
+      "name": "East Wall",
+      "start": { "x": 10, "y": 2 },
+      "end": { "x": 10, "y": 7 },
+      "thickness": 0.25,
+      "height": 3,
+      "material": "White Plaster"
+    },
+    {
+      "id": "object-1",
+      "type": "object",
+      "name": "Compact Sofa",
+      "assetKey": "sofa-compact",
+      "category": "Furniture",
+      "position": { "x": 5.6, "y": 0, "z": 5.1 },
+      "rotation": { "x": 0, "y": 28, "z": 0 },
+      "scale": { "x": 1, "y": 1, "z": 1 },
+      "material": "Warm Fabric",
+      "footprint": { "x": 2.2, "y": 0.9 },
+      "height": 0.82
+    }
+  ]
+}

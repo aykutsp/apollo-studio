@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "0.1.0",
+  "project": {
+    "id": "atelier-loft",
+    "name": "Atelier Loft",
+    "unitSystem": "m"
+  },
+  "scene": {
+    "entities": [
+      { "id": "wall-n", "type": "wall", "name": "North", "start": { "x": 1, "y": 9 }, "end": { "x": 12, "y": 9 }, "thickness": 0.22, "height": 3.0, "material": "White Plaster" },
+      { "id": "wall-e", "type": "wall", "name": "East",  "start": { "x": 12, "y": 9 }, "end": { "x": 12, "y": 1 }, "thickness": 0.22, "height": 3.0, "material": "White Plaster" },
+      { "id": "wall-s", "type": "wall", "name": "South", "start": { "x": 12, "y": 1 }, "end": { "x": 1, "y": 1 }, "thickness": 0.22, "height": 3.0, "material": "White Plaster" },
+      { "id": "wall-w", "type": "wall", "name": "West",  "start": { "x": 1, "y": 1 }, "end": { "x": 1, "y": 9 }, "thickness": 0.22, "height": 3.0, "material": "White Plaster" },
+
+      { "id": "rug-1", "type": "object", "name": "Area Rug", "assetKey": "rug-large", "category": "Rug", "position": { "x": 5, "y": 0, "z": 5 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "material": "Wool", "footprint": { "x": 3.0, "y": 2.2 }, "height": 0.02, "procedural": { "kind": "rug", "palette": { "primary": "#a89b7e", "accent": "#5e5038" } } },
+      { "id": "sofa-1", "type": "object", "name": "Lowline Sofa", "assetKey": "sofa-lowline", "category": "Sofa", "position": { "x": 5, "y": 0, "z": 5.2 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "material": "Warm Fabric", "footprint": { "x": 2.2, "y": 0.9 }, "height": 0.78, "procedural": { "kind": "sofa", "palette": { "primary": "#c9b79a", "frame": "#2d2721", "accent": "#8a6f4a" } } },
+      { "id": "coffee-1", "type": "object", "name": "Coffee Table", "assetKey": "table-coffee-round", "category": "Coffee", "position": { "x": 5, "y": 0, "z": 6.2 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "material": "Smoked Oak", "footprint": { "x": 0.95, "y": 0.95 }, "height": 0.38, "procedural": { "kind": "table", "palette": { "primary": "#5a4230", "frame": "#2a1e15" } } },
+      { "id": "chair-1", "type": "object", "name": "Lounge Chair", "assetKey": "armchair-lounge", "category": "Armchair", "position": { "x": 3.6, "y": 0, "z": 7.2 }, "rotation": { "x": 0, "y": 200, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "material": "Leather", "footprint": { "x": 0.88, "y": 0.84 }, "height": 0.9, "procedural": { "kind": "armchair", "palette": { "primary": "#7a4a32", "frame": "#2b1f18", "accent": "#a56b4a" } } },
+      { "id": "plant-1", "type": "object", "name": "Monstera", "assetKey": "plant-monstera", "category": "Plant", "position": { "x": 11, "y": 0, "z": 8.2 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "material": "Terracotta", "footprint": { "x": 0.6, "y": 0.6 }, "height": 1.3, "procedural": { "kind": "plant", "palette": { "primary": "#3a5a3a", "frame": "#8a5a3a", "accent": "#5e8c4e" } } },
+      { "id": "desk-1", "type": "object", "name": "Writing Desk", "assetKey": "desk-work", "category": "Desk", "position": { "x": 10, "y": 0, "z": 2.2 }, "rotation": { "x": 0, "y": 180, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "material": "Walnut", "footprint": { "x": 1.4, "y": 0.7 }, "height": 0.74, "procedural": { "kind": "desk", "palette": { "primary": "#3e2a1c", "frame": "#1a110a" } } },
+      { "id": "chair-2", "type": "object", "name": "Dining Chair", "assetKey": "chair-dining", "category": "Chair", "position": { "x": 10, "y": 0, "z": 3.1 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "material": "Oak + Fabric", "footprint": { "x": 0.48, "y": 0.52 }, "height": 0.88, "procedural": { "kind": "chair", "palette": { "primary": "#a88253", "frame": "#6e4e2a", "accent": "#e3dcc8" } } },
+      { "id": "bookshelf-1", "type": "object", "name": "Tall Bookshelf", "assetKey": "bookshelf-tall", "category": "Shelving", "position": { "x": 2, "y": 0, "z": 2.5 }, "rotation": { "x": 0, "y": 90, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "material": "Walnut", "footprint": { "x": 1.1, "y": 0.36 }, "height": 1.9, "procedural": { "kind": "bookshelf", "palette": { "primary": "#3d2a1c", "frame": "#1a110a", "accent": "#b89770" } } },
+      { "id": "lamp-1", "type": "object", "name": "Floor Lamp", "assetKey": "lamp-floor", "category": "Lighting", "position": { "x": 3.2, "y": 0, "z": 4.4 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 1, "y": 1, "z": 1 }, "material": "Brass", "footprint": { "x": 0.4, "y": 0.4 }, "height": 1.6, "procedural": { "kind": "lamp-floor", "palette": { "primary": "#c29a4a", "accent": "#f0ddb0" } } },
+
+      { "id": "door-1", "type": "door", "name": "Entry Door", "hostWallId": "wall-s", "offsetAlongWall": 3.6, "width": 0.9, "height": 2.1, "material": "Stained Oak", "sillHeight": 0 },
+      { "id": "window-1", "type": "window", "name": "Tall Window", "hostWallId": "wall-e", "offsetAlongWall": 4.2, "width": 2.0, "height": 1.8, "material": "Aluminium", "sillHeight": 0.6 },
+      { "id": "window-2", "type": "window", "name": "Studio Window", "hostWallId": "wall-n", "offsetAlongWall": 6.5, "width": 1.8, "height": 1.4, "material": "Aluminium", "sillHeight": 1.0 }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Apollo Project",
+  "type": "object",
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "units": { "type": "string" },
+    "scene": { "type": "object" }
+  },
+  "required": ["schemaVersion", "units", "scene"]
+}
