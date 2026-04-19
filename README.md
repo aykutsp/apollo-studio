@@ -74,7 +74,7 @@ Your project is stored as plain JSON, fully portable and version-control friendl
 
 | 2D Plan | 3D Walkthrough | Split View |
 |---------|---------------|------------|
-| ![2D plan view](https://placehold.co/380x220/1a1d22/c29a4a?text=2D+Plan) | ![3D viewport](https://placehold.co/380x220/1a1d22/c29a4a?text=3D+View) | ![Split view](https://placehold.co/380x220/1a1d22/c29a4a?text=Split+View) |
+| ![2D plan view](./docs/assets/screenshots/2d.png) | ![3D viewport](./docs/assets/screenshots/3D.png) | ![Split view](./docs/assets/screenshots/split.png) |
 
 ---
 
