@@ -2,15 +2,15 @@
 
 <img src="./favicon.svg" width="64" height="64" alt="Apollo Studio" />
 
-# Apollo Studio
+# Apollo - 2D & 3D Architectural Studio
 
-### Browser-first 2D/3D Architectural Editor
+### Browser-first Architectural Editor
 
 Draw floor plans in 2D. Walk through them in 3D. No install, no export step — just open the browser and start designing.
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/▶%20Live%20Demo-aykutsp.github.io-d99b4b?style=for-the-badge)](https://aykutsp.github.io/Apollo---2D-3D-Architectural-Studio/)
+[![Live Demo](https://img.shields.io/badge/▶%20Live%20Demo-aykutsp.github.io-d99b4b?style=for-the-badge)](https://aykutsp.github.io/apollo-studio/)
 
 <br/>
 
@@ -81,8 +81,8 @@ Your project is stored as plain JSON, fully portable and version-control friendl
 ## Getting Started
 
 ```bash
-git clone https://github.com/aykutsp/Apollo---2D-3D-Architectural-Studio.git
-cd Apollo---2D-3D-Architectural-Studio
+git clone https://github.com/aykutsp/apollo-studio.git
+cd apollo-studio
 npm install
 npm run dev        # → http://localhost:5173
 ```
@@ -218,6 +218,6 @@ Apollo Studio is in **alpha**. The file format, procedural recipe schema, and co
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/▶%20Try%20Apollo%20Studio-Live%20Demo-d99b4b?style=for-the-badge)](https://aykutsp.github.io/Apollo---2D-3D-Architectural-Studio/)
+[![Live Demo](https://img.shields.io/badge/▶%20Try%20Apollo%20Studio-Live%20Demo-d99b4b?style=for-the-badge)](https://aykutsp.github.io/apollo-studio/)
 
 </div>
