@@ -96,16 +96,14 @@ function exportObj(scene: THREE.Scene): string {
 
 function exportStl(scene: THREE.Scene): ArrayBuffer {
   const exporter = new STLExporter();
-  const result = exporter.parse(scene, { binary: true });
-  // The STL exporter returns a DataView (binary) or string (ascii). We always
-  // request binary. Normalise to an ArrayBuffer that's safe for Blob.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const result: any = exporter.parse(scene, { binary: true });
   if (result instanceof DataView) {
     return result.buffer.slice(result.byteOffset, result.byteOffset + result.byteLength) as ArrayBuffer;
   }
   if (result instanceof ArrayBuffer) {
     return result;
   }
-  // ascii fallback (should not happen with binary: true)
   return new TextEncoder().encode(String(result)).buffer as ArrayBuffer;
 }
 
